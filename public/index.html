@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raqkid Editor</title>
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Raqkid Editor</h1>
+  </header>
+
+  <main>
+    <section class="paragraphs">
+
+    </section>
+
+    <div class="editor">
+      <div>
+        <h3>HTML</h3>
+        <textarea id="html-code" placeholder="Write HTML here..."></textarea>
+      </div>
+      <div>
+        <h3>CSS</h3>
+        <textarea id="css-code" placeholder="Write CSS here..."></textarea>
+      </div>
+      <div>
+        <h3>JavaScript</h3>
+        <textarea id="js-code" placeholder="Write JavaScript here..."></textarea>
+      </div>
+    </div>
+
+    <button onclick="runCode()">▶ Run</button>
+
+    <iframe id="output"></iframe>
+  </main>
+
+  <footer>
+    <a href="https://raqkidofficial.vercel.app/" target="_blank">Powered by RAQkid_Company</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
